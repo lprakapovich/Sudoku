@@ -1,0 +1,14 @@
+com\mycompany\sudoku\SudokuBoard.class
+com\mycompany\sudoku\SudokuBoard$1.class
+com\mycompany\sudoku\SudokuColumn.class
+com\mycompany\sudoku\SudokuRow.class
+com\mycompany\sudoku\DifficultyLevel.class
+com\mycompany\sudoku\FileSudokuBoardDao.class
+com\mycompany\sudoku\SudokuSolver.class
+com\mycompany\sudoku\SudokuField.class
+module-info.class
+com\mycompany\sudoku\Dao.class
+com\mycompany\sudoku\SudokuBox.class
+com\mycompany\sudoku\SudokuSegment.class
+com\mycompany\sudoku\SudokuBoardDaoFactory.class
+com\mycompany\sudoku\BacktrackingSudokuSolver.class

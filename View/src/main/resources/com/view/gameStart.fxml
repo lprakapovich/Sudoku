@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ToggleButton?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane prefHeight="731.0" prefWidth="504.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.view.GameStart">
+   <children>
+      <Label fx:id="welcomeLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="52.0" layoutY="116.0" prefHeight="68.0" prefWidth="401.0" textAlignment="CENTER" /> 
+      <ToggleButton fx:id="continueButton" layoutX="276.0" layoutY="436.0" mnemonicParsing="false" onAction="#loadNextView" prefHeight="68.0" prefWidth="142.0" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font name="Gadugi" size="19.0" />
+         </font>
+         <toggleGroup>
+            <ToggleGroup fx:id="strategyButtons" />
+         </toggleGroup>
+      </ToggleButton>
+      <ToggleButton fx:id="newGameButton" layoutX="86.0" layoutY="436.0" mnemonicParsing="false" onAction="#loadNextView" prefHeight="68.0" prefWidth="142.0" toggleGroup="$strategyButtons">
+         <font>
+            <Font name="Gadugi" size="19.0" />
+         </font>
+      </ToggleButton>
+      <Button fx:id="plButton" layoutX="-56.0" layoutY="244.0" mnemonicParsing="false" onAction="#switchLanguage" prefHeight="55.0" prefWidth="111.0" />
+      <Button fx:id="enButton" layoutX="-56.0" layoutY="338.0" mnemonicParsing="false" onAction="#switchLanguage" prefHeight="55.0" prefWidth="111.0" />
+   </children>
+</Pane>

@@ -1,0 +1,78 @@
+
+/* we write class names with lowercase letter */
+
+.root {
+   -fx-background-color: linear-gradient(to top, #d3cce3, #e9e4f0);
+   
+}
+
+#welcomeLabel{
+    -fx-font-weight: bold;
+    -fx-font-size: 35;
+    -fx-effect: dropshadow(three-pass-box, purple, 0.0, 5.0, 1.0, 2.0);
+}
+
+.animated-gradient {
+    -gradient-base: red ;
+    -fx-text-fill: linear-gradient(to right, -gradient-base, blue);
+}
+
+
+
+#plButton {
+  -fx-background-color:linear-gradient(to bottom, white 50%, #DC143C 50%);
+  -fx-effect: dropshadow(three-pass-box, purple, 0.0, 10.0, 4.0, 4.0);
+  
+}
+
+#enButton{
+  -fx-background-image: url("https://cdn.webshopapp.com/shops/94414/files/54956666/the-united-kingdom-flag-icon-free-download.jpg");
+  -fx-background-size: 111px 55px;
+  -fx-effect: dropshadow(three-pass-box, purple, 0.0, 10.0, 4.0, 4.0);
+  -fx-background-insets: 1;
+}
+
+#newGameButton{
+  -fx-background-color: white;
+  -fx-effect: dropshadow(three-pass-box, purple, 0.0, 10.0, 4.0, 4.0);
+  -fx-text-fill: black; 
+  -fx-font-weight: bold;
+  -fx-font-size: 18;
+}
+
+#continueButton{
+  -fx-background-color:  white;
+  -fx-effect: dropshadow(three-pass-box, purple, 0.0, 10.0, 4.0, 4.0);
+  -fx-text-fill: black; 
+  -fx-font-weight: bold;
+  -fx-font-size: 18;
+}
+
+#newGameButton:hover{
+  -fx-scale-x: 1.1;
+  -fx-scale-y: 1.1;
+  -fx-scale-z: 1.1;
+}
+
+#continueButton:hover{
+  -fx-scale-x: 1.1;
+  -fx-scale-y: 1.1;
+  -fx-scale-z: 1.1;
+}
+
+#closeWindowButton{
+    -fx-effect: dropshadow(three-pass-box, purple, 0.0, 5.0, 2.0, 2.0);
+    -fx-text-fill: white; 
+    -fx-font-weight: bold;
+    -fx-font-size: 14;
+    -fx-border-radius: 50%;
+    -fx-background-radius:50%;
+    -fx-background-color:red;
+}
+
+#closeWindowButton:hover{
+  -fx-scale-x: 1.1;
+  -fx-scale-y: 1.1;
+  -fx-scale-z: 1.1;
+}
+

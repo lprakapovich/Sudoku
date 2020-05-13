@@ -1,0 +1,4 @@
+--patch-module
+com.mycompany=_
+--add-reads
+com.mycompany=ALL-UNNAMED

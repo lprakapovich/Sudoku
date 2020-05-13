@@ -1,0 +1,10 @@
+com\view\App.class
+com\view\TerminatorBox.class
+com\view\FXMLHandler.class
+com\view\tips\Tips_pl.class
+com\view\PlayingArea.class
+com\view\GameStart.class
+module-info.class
+com\view\AlertBox.class
+com\view\GameSettings.class
+com\view\tips\Tips_en.class
